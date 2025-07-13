@@ -1,0 +1,10 @@
+services:
+  grpc-service:
+    build: .
+    ports:
+      - "50051:50051"
+      - "6001:6001"
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: ["rr", "serve", "-c", ".rr.yaml"]
