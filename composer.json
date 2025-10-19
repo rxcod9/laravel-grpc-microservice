@@ -2,7 +2,7 @@
   "name": "rxcod9/grpc-microservice",
   "require": {
     "php": "^8.4",
-    "spiral/roadrunner": "^2.12",
+    "spiral/roadrunner": "^2025.0",
     "spiral/roadrunner-grpc": "2.x-dev",
     "illuminate/container": "^12.0",
     "illuminate/support": "^12.0",
