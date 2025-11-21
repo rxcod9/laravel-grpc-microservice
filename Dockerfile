@@ -1,4 +1,4 @@
-FROM php:8.4-cli
+FROM php:8.5-cli
 
 RUN apt-get update && apt-get install -y unzip git curl protobuf-compiler supervisor && rm -rf /var/lib/apt/lists/*
 RUN docker-php-ext-install sockets
